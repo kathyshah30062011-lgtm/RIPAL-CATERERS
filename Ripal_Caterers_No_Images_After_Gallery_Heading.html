@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="#173f32" name="theme-color"/>
+<meta content="light" name="color-scheme"/>
+<meta content="Ripal Caterers — pure vegetarian catering for weddings, celebrations, corporate events and family gatherings. Gujarati, Rajasthani, Punjabi and Indian favourites." name="description"/>
+<title>Ripal Caterers | Pure Vegetarian Catering</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Noto+Serif+Gujarati:wght@500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<style>
+:root{--green:#173f32;--green2:#245846;--gold:#d9a441;--cream:#fbf7ef;--ink:#202b25;--muted:#69766e;--white:#fff;--line:#e8e2d6}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--cream);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit}.container{width:min(1160px,92%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(251,247,239,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(23,63,50,.1)}
+ .shreeji-banner{min-height:66px;display:flex;align-items:center;justify-content:center;gap:clamp(10px,3vw,28px);padding:8px 12px;background:linear-gradient(100deg,#102f25,#245846 48%,#102f25);color:#f4d58e;text-align:center;overflow:hidden}
+.shreeji-banner .ornament{display:flex;flex-direction:row;align-items:center;justify-content:center;gap:5px;width:clamp(20px,5vw,44px);flex:0 1 44px}
+.shreeji-banner .ornament i{display:block;height:30px;width:1px;flex:0 0 1px;background:linear-gradient(180deg,transparent,#d9a441 18%,#f4d58e 50%,#d9a441 82%,transparent);box-shadow:0 0 5px #f1cc7830}
+.shreeji-banner .shreeji-center{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0;min-width:0}
+.shreeji-banner .shreeji-text{font-family:'Noto Serif Gujarati',serif;font-size:1.35rem;font-weight:700;letter-spacing:.04em;line-height:1.2;text-shadow:0 1px 0 #6f4c16,0 0 15px #f1cc7840;animation:shreejiGlow 3.8s ease-in-out infinite}
+.shreeji-banner .shreeji-blessing{font-family:'Noto Serif Gujarati',serif;font-size:.82rem;font-weight:600;letter-spacing:.025em;line-height:1.35;color:#fff0c5;text-shadow:0 1px 8px #f1cc7830}
+@keyframes shreejiGlow{0%,100%{text-shadow:0 1px 0 #6f4c16,0 0 8px #f1cc7820;transform:translateY(0)}50%{text-shadow:0 1px 0 #6f4c16,0 0 16px #f1cc7870;transform:translateY(-1px)}}
+@media(prefers-reduced-motion:reduce){.shreeji-banner .shreeji-text{animation:none}}
+.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:11px;color:var(--green);font-weight:700;letter-spacing:.08em;font-size:1rem}.brand-mark{width:42px;height:42px;border:1.5px solid var(--gold);border-radius:50%;display:grid;place-items:center;color:var(--gold);font-family:'Playfair Display',serif;font-size:24px}.navlinks{display:flex;align-items:center;gap:26px;font-size:.9rem;color:#3f5147}.navlinks a:hover{color:var(--gold)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:7px;padding:13px 20px;font-weight:700;border:1px solid transparent;transition:.2s}.nav-cta,.btn-gold{background:var(--gold);color:#192b21}.nav-cta:hover,.btn-gold:hover{background:#e7b95e;transform:translateY(-1px)}.menu-toggle{display:none;border:0;background:transparent;font-size:1.7rem;color:var(--green)}
+.hero{padding:62px 0 70px;overflow:hidden;position:relative}.hero:before{content:"";position:absolute;width:340px;height:340px;border:1px solid #ead8b7;border-radius:50%;right:-220px;top:0;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1fr 1.05fr;align-items:center;gap:48px}.eyebrow{display:inline-flex;align-items:center;gap:10px;color:var(--green2);text-transform:uppercase;letter-spacing:.17em;font-size:.74rem;font-weight:700}.eyebrow:before{content:"";width:28px;height:2px;background:var(--gold)}h1,h2,h3{font-family:'Playfair Display',serif;line-height:1.13;margin:0;color:var(--green)}h1{font-size:clamp(2.8rem,5vw,4.65rem);letter-spacing:-.035em;margin:18px 0}.hero h1 em{font-style:normal;color:#b98127}.hero-copy{font-size:1.05rem;color:var(--muted);max-width:510px}.hero-actions{display:flex;flex-wrap:wrap;gap:13px;margin:28px 0}.btn-green{background:var(--green);color:white}.btn-green:hover{background:var(--green2);transform:translateY(-1px)}.btn-outline{border-color:#c9d2ca;color:var(--green)}.btn-outline:hover{border-color:var(--green)}.trust{display:flex;gap:18px;flex-wrap:wrap;margin-top:25px;color:#53645a;font-size:.83rem}.trust span{display:flex;align-items:center;gap:7px}.check{color:#b98127;font-weight:700}
+.hero-visual{position:relative;min-height:510px}.hero-photo{position:absolute;inset:0 0 20px 25px;width:calc(100% - 25px);height:calc(100% - 20px);object-fit:cover;border-radius:180px 180px 18px 18px;box-shadow:0 24px 65px #173f3220}.photo-tag{position:absolute;bottom:0;left:0;background:var(--white);padding:17px 21px;border-radius:10px;box-shadow:0 12px 35px #173f3220;display:flex;align-items:center;gap:13px;max-width:260px}.tag-icon{height:44px;width:44px;border-radius:50%;background:#f8edcf;color:#95691d;display:grid;place-items:center;font-size:1.3rem}.photo-tag strong{display:block;color:var(--green);font-size:.95rem}.photo-tag small{color:var(--muted)}
+section{padding:76px 0}.section-head{text-align:center;max-width:670px;margin:0 auto 38px}.section-head .eyebrow{justify-content:center}.section-head h2{font-size:clamp(2rem,3.6vw,3rem);margin:14px 0}.section-head p{color:var(--muted);margin:0}.services{background:#f2ecdf}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.service-card{background:#fff;border:1px solid #eee4d4;border-radius:13px;padding:28px 25px;transition:.25s}.service-card:hover{transform:translateY(-5px);box-shadow:0 16px 35px #173f3210}.service-icon{width:52px;height:52px;border-radius:13px;background:#f8edcf;display:grid;place-items:center;font-size:1.45rem;margin-bottom:20px}.service-card h3{font-size:1.35rem;margin-bottom:10px}.service-card p{color:var(--muted);margin:0;font-size:.94rem}
+.menu-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.food-card{background:white;border-radius:12px;overflow:hidden;border:1px solid #eee6d9}.food-card img{width:100%;height:185px;object-fit:cover;display:block}.food-card div{padding:17px}.food-card h3{font-size:1.12rem;margin-bottom:5px}.food-card p{margin:0;color:var(--muted);font-size:.85rem}.menu-note{text-align:center;color:var(--muted);margin:25px auto 0;max-width:700px;font-size:.92rem}
+.about{background:var(--green);color:#e9eee9}.about-grid{display:grid;grid-template-columns:.9fr 1.1fr;align-items:center;gap:60px}.about-art{position:relative}.about-art img{width:100%;height:390px;object-fit:cover;border-radius:14px}.about h2{font-size:clamp(2.1rem,3.7vw,3.1rem);color:#fff;margin:15px 0}.about p{color:#d1ddd4}.about .eyebrow{color:#f1cc78}.about-points{display:grid;grid-template-columns:1fr 1fr;gap:15px;margin-top:25px}.about-points div{border-top:1px solid #ffffff30;padding-top:13px;color:#fff;font-weight:600}.about-points span{display:block;font-size:.83rem;color:#c7d4ca;font-weight:400}
+.enquiry{background:#f2ecdf}.enquiry-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px;align-items:start}.enquiry-copy h2{font-size:clamp(2.2rem,4vw,3.25rem);margin:14px 0}.enquiry-copy p{color:var(--muted)}.contact-card{background:var(--green);color:#fff;padding:22px;border-radius:12px;margin-top:25px}.contact-card small{color:#cbd9cf}.contact-card a{display:block;color:#f1cc78;font-size:1.25rem;font-weight:700;margin-top:4px}.form-card{background:#fff;padding:30px;border-radius:14px;box-shadow:0 15px 40px #173f3210}.form-card h3{font-size:1.5rem;margin-bottom:20px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:.82rem;font-weight:700;color:#425348}.field input,.field select,.field textarea{width:100%;border:1px solid #dce2db;background:#fff;border-radius:7px;padding:12px 13px;outline:none;color:var(--ink)}.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--green);box-shadow:0 0 0 3px #173f3210}.field textarea{min-height:100px;resize:vertical}.form-card .btn{width:100%;margin-top:18px;cursor:pointer;border:0}.form-hint{font-size:.78rem;color:var(--muted);margin:10px 0 0;text-align:center}
+footer{background:#102f25;color:#d6e0d8;padding:32px 0}.footer-row{display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}.footer-brand{color:#fff}.footer-row p{font-size:.84rem;margin:4px 0;color:#aebfb3}.footer-links{display:flex;gap:18px;font-size:.88rem}.footer-links a:hover{color:#f1cc78}.whatsapp-float{position:fixed;right:22px;bottom:22px;z-index:20;background:#1fa855;color:#fff;border-radius:50px;padding:13px 18px;box-shadow:0 8px 25px #173f3230;display:flex;align-items:center;gap:9px;font-weight:700}.whatsapp-float:hover{background:#178944}.wa-symbol{font-size:1.2rem}
+@media(max-width:850px){.navlinks{gap:15px}.hero-grid{gap:25px}.hero-visual{min-height:430px}.menu-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.about-grid{gap:35px}.enquiry-grid{gap:25px}}
+@media(max-width:680px){.nav{min-height:68px}.menu-toggle{display:block}.navlinks{display:none;position:absolute;left:0;right:0;top:68px;background:var(--cream);padding:18px 5%;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;gap:0}.navlinks.open{display:flex}.navlinks a{padding:11px 0}.nav-cta{display:none}.hero{padding:35px 0 52px}.hero-grid,.about-grid,.enquiry-grid{grid-template-columns:1fr}.hero-visual{min-height:370px;margin-top:10px}.hero-photo{left:12px;width:calc(100% - 12px)}.service-grid{grid-template-columns:1fr}.section-head{margin-bottom:28px}section{padding:58px 0}.about-art img{height:290px}.about-points{gap:12px}.form-card{padding:22px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.whatsapp-float{right:12px;bottom:12px;padding:12px 15px}.footer-row{align-items:flex-start;flex-direction:column}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+/* Premium refresh: visual depth, responsive polish and gentle motion */
+.food-card{transition:transform .32s ease,box-shadow .32s ease}.food-card:hover{transform:translateY(-7px);box-shadow:0 18px 38px #173f3217}.food-card img{transition:transform .65s ease,filter .4s ease}.food-card:hover img{transform:scale(1.045);filter:saturate(1.08)}
+
+:root{--gold:#d8a13b;--cream:#fffaf1;--ink:#202b25;--muted:#66736b;--line:#e9e1d3}
+body{overflow-x:hidden}
+::selection{background:#e9d19a;color:#173f32}
+a,button,input,select,textarea{-webkit-tap-highlight-color:transparent}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible{outline:3px solid #d8a13b;outline-offset:3px}
+header{box-shadow:0 5px 24px #173f3208}
+.brand{letter-spacing:.1em}
+.brand-mark{box-shadow:inset 0 0 0 4px #d9a44112;transition:transform .35s ease}
+.brand:hover .brand-mark{transform:rotate(-8deg) scale(1.04)}
+.navlinks a{position:relative}
+.navlinks a:not(.nav-cta):after{content:"";position:absolute;left:0;bottom:4px;width:0;height:2px;background:var(--gold);transition:width .25s ease}
+.navlinks a:hover:after{width:100%}
+.hero{padding-top:76px;background:radial-gradient(ellipse at 80% 18%,#f2e4c9 0,transparent 38%),linear-gradient(180deg,#fffaf3 0%,var(--cream) 100%)}
+.hero:after{content:"";position:absolute;left:-170px;bottom:-230px;width:350px;height:350px;border:1px solid #ead8b7;border-radius:50%;pointer-events:none}
+.hero h1{max-width:650px}
+.hero-copy{line-height:1.85}
+.hero-visual{isolation:isolate}
+.hero-photo{transition:transform .8s cubic-bezier(.2,.75,.25,1),filter .5s ease;filter:saturate(1.06) contrast(1.02)}
+.hero-visual:hover .hero-photo{transform:scale(1.018);filter:saturate(1.13)}
+.photo-tag{backdrop-filter:blur(10px);border:1px solid #ffffffb5}
+.btn{min-height:48px;box-shadow:0 5px 16px #173f3208}
+.btn-green,.btn-gold,.nav-cta{box-shadow:0 8px 20px #173f3214}
+section{scroll-margin-top:82px}
+.section-head h2{letter-spacing:-.025em}
+.services{background:linear-gradient(135deg,#f3ecdf,#faf5eb)}
+.service-card{position:relative;overflow:hidden;box-shadow:0 8px 24px #173f3205}
+.service-card:before{content:"";position:absolute;top:0;left:0;width:100%;height:3px;background:linear-gradient(90deg,var(--gold),#f3dba4);transform:scaleX(0);transform-origin:left;transition:transform .3s ease}
+.service-card:hover:before{transform:scaleX(1)}
+.service-icon{transition:transform .3s ease,background .3s ease}
+.service-card:hover .service-icon{transform:translateY(-3px) rotate(-4deg);background:#f5e4b9}
+.food-card{box-shadow:0 8px 25px #173f3208;transition:transform .35s ease,box-shadow .35s ease}
+.food-card:hover{transform:translateY(-7px);box-shadow:0 20px 38px #173f3218}
+.food-card img{transition:transform .65s cubic-bezier(.2,.75,.25,1),filter .4s ease;filter:saturate(1.04)}
+.food-card:hover img{transform:scale(1.06);filter:saturate(1.15)}
+.food-card>div{position:relative;background:#fff}
+.food-card h3{transition:color .25s ease}
+.food-card:hover h3{color:#a77520}
+.about{background:radial-gradient(ellipse at 10% 10%,#2b5b47 0,transparent 42%),var(--green)}
+.about-art{overflow:hidden;border-radius:14px;box-shadow:0 22px 50px #071d1640}
+.about-art img{display:block;transition:transform .7s ease}
+.about-art:hover img{transform:scale(1.035)}
+.about-points div{transition:transform .25s ease}
+.about-points div:hover{transform:translateX(4px)}
+.enquiry{background:linear-gradient(135deg,#f5efe3,#fffaf2)}
+.form-card{border:1px solid #eee5d8;box-shadow:0 18px 48px #173f3210}
+.field input,.field select,.field textarea{transition:border-color .2s ease,box-shadow .2s ease}
+.form-card .btn{box-shadow:0 10px 24px #173f3218}
+.form-card .btn:hover{transform:translateY(-2px)}
+.contact-card{box-shadow:0 12px 28px #173f3215}
+.whatsapp-float{transition:transform .25s ease,box-shadow .25s ease}
+.whatsapp-float:hover{transform:translateY(-3px);box-shadow:0 12px 32px #173f3240}
+footer{border-top:3px solid #d8a13b}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.75,.25,1)}
+.reveal.is-visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:.08s}.reveal-delay-2{transition-delay:.16s}.reveal-delay-3{transition-delay:.24s}
+@media(max-width:850px){.hero{padding-top:52px}.hero-visual{min-height:450px}}
+@media(max-width:680px){
+ .hero{padding-top:34px}.hero h1{font-size:clamp(2.55rem,12vw,3.6rem)}
+ .hero-copy{font-size:1rem}.hero-visual{min-height:350px}
+ .photo-tag{padding:13px 15px;max-width:245px}.menu-grid{gap:13px}
+ .food-card img{height:150px}.food-card>div{padding:14px}
+ .food-card h3{font-size:1.02rem}.food-card p{font-size:.81rem}
+ .navlinks{box-shadow:0 14px 24px #173f3210}.whatsapp-float{font-size:.9rem}
+}
+@media(prefers-reduced-motion:reduce){
+ .reveal{opacity:1;transform:none;transition:none}
+ .hero-photo,.food-card img,.about-art img{transition:none}
+}
+
+
+.quick-strip{background:#173f32;color:#f7f1e6;border-top:1px solid #ffffff16;border-bottom:1px solid #ffffff16}
+.quick-strip-inner{min-height:74px;display:flex;align-items:center;justify-content:center;gap:30px;flex-wrap:wrap;padding:15px 0}
+.quick-strip span{font-size:.88rem;color:#d7e0d8}
+.quick-strip b{color:#f1cc78;margin-right:4px}
+.quick-strip i{height:22px;width:1px;background:#ffffff35}
+@media(max-width:600px){.quick-strip-inner{gap:10px 18px;justify-content:flex-start}.quick-strip i{display:none}.quick-strip span{font-size:.8rem}}
+
+
+/* Signature brand treatment: centred, animated hero logo */
+.hero-brand-lockup{position:relative;text-align:center;max-width:720px;margin:0 auto 42px;padding:4px 15px 0;animation:brandRise .9s cubic-bezier(.2,.75,.25,1) both}
+.hero-logo-seal{position:relative;display:grid;place-items:center;width:100px;height:100px;margin:0 auto 14px;border:1.5px solid var(--gold);border-radius:50%;color:var(--green);background:radial-gradient(circle at 35% 25%,#fff 0,#f8ecd0 68%,#efddb5 100%);box-shadow:0 0 0 7px #d8a13b12,0 12px 32px #173f3212;animation:sealFloat 4.5s ease-in-out infinite}
+.hero-logo-seal:before,.hero-logo-seal:after{content:"";position:absolute;inset:-8px;border:1px solid #d8a13b66;border-radius:50%;animation:sealPulse 4s ease-in-out infinite}
+.hero-logo-seal:after{inset:-15px;border-color:#d8a13b35;animation-delay:1s}
+.logo-letter{font-family:'Playfair Display',serif;font-size:3.65rem;font-weight:700;line-height:1;color:var(--green);text-shadow:1px 2px 0 #d8a13b40}
+.logo-leaf{position:absolute;top:8px;left:14px;font-size:1.15rem;color:#a87924;transform:rotate(-28deg)}
+.logo-spark{position:absolute;right:13px;bottom:12px;color:#a87924;font-size:.95rem;animation:sparkTurn 8s linear infinite}
+.hero-logo-wordmark{font-family:'Playfair Display',serif;font-weight:700;letter-spacing:.13em;color:var(--green);font-size:clamp(2.05rem,5vw,3.55rem);line-height:1.08;text-shadow:0 4px 20px #173f320b}
+.hero-logo-wordmark span{color:#b98127}
+.hero-logo-rule{display:flex;align-items:center;justify-content:center;gap:14px;margin:13px auto 7px;color:#8d6a2e;font-size:.7rem;font-weight:700;letter-spacing:.22em}
+.hero-logo-rule i{display:block;width:46px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}.hero-logo-rule i:last-child{transform:rotate(180deg)}
+.hero-logo-tagline{margin:0;color:var(--muted);font-family:'Playfair Display',serif;font-style:italic;font-size:1.05rem}
+.hero-grid{align-items:center}
+.hero h1{font-size:clamp(2.65rem,4.8vw,4.25rem)}
+.hero-copy{font-size:1.06rem}
+.btn{transition:transform .28s ease,box-shadow .28s ease,background .28s ease}
+.btn:hover{box-shadow:0 13px 28px #173f3222}
+.section-head{animation:softFade .8s ease both}
+@keyframes brandRise{from{opacity:0;transform:translateY(20px) scale(.98)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes sealFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@keyframes sealPulse{0%,100%{transform:scale(1);opacity:.65}50%{transform:scale(1.035);opacity:.25}}
+@keyframes sparkTurn{to{transform:rotate(360deg)}}
+@keyframes softFade{from{opacity:0}to{opacity:1}}
+@media(max-width:680px){.hero-brand-lockup{margin-bottom:30px;padding-top:0}.hero-logo-seal{width:82px;height:82px}.logo-letter{font-size:3rem}.hero-logo-wordmark{letter-spacing:.08em}.hero-logo-rule{font-size:.58rem;letter-spacing:.13em;gap:8px}.hero-logo-rule i{width:26px}.hero-logo-tagline{font-size:.95rem}.hero-grid{gap:25px}}
+@media(prefers-reduced-motion:reduce){.hero-brand-lockup,.hero-logo-seal,.hero-logo-seal:before,.hero-logo-seal:after,.logo-spark{animation:none!important}}
+
+
+/* ===== 3D + transitions layer ===== */
+#intro{position:fixed;inset:0;z-index:1000;pointer-events:none;display:grid;place-items:center}
+#intro .curtain{position:absolute;top:0;bottom:0;width:50.2%;background:radial-gradient(ellipse at 50% 30%,#2b5b47,#102f25 70%);transition:transform 1.15s cubic-bezier(.77,0,.18,1)}
+#intro .l{left:0;border-right:1px solid #d9a441}#intro .r{right:0;border-left:1px solid #d9a441}
+#intro .seal{position:relative;width:96px;height:96px;border:1.5px solid #d9a441;border-radius:50%;display:grid;place-items:center;font:700 3.2rem 'Playfair Display',serif;color:#f4d58e;animation:introSpin 2.2s ease-in-out infinite;transition:opacity .5s ease,scale .8s ease}
+body.loaded #intro .l{transform:translateX(-101%)}body.loaded #intro .r{transform:translateX(101%)}
+body.loaded #intro .seal{opacity:0;scale:1.7}
+body:not(.loaded){overflow:hidden}
+@keyframes introSpin{0%{transform:perspective(500px) rotateY(0)}100%{transform:perspective(500px) rotateY(360deg)}}
+#progress{position:fixed;top:0;left:0;right:0;height:3px;z-index:50;background:linear-gradient(90deg,#d9a441,#f4d58e);transform:scaleX(0);transform-origin:0 50%}
+body:not(.loaded) .hero-brand-lockup,body:not(.loaded) .hero h1,body:not(.loaded) .hero-visual{animation-play-state:paused}
+
+/* hero depth */
+.hero-grid{perspective:1400px}
+.hero h1{transform-origin:50% 100%;animation:titleIn 1.1s cubic-bezier(.2,.75,.25,1) .25s both}
+@keyframes titleIn{from{opacity:0;transform:perspective(800px) rotateX(-55deg) translateY(30px)}to{opacity:1;transform:none}}
+.hero-visual{transform-style:preserve-3d;transform:rotateX(var(--hx,0deg)) rotateY(var(--hy,0deg));transition:transform .35s ease-out;animation:heroIn 1.4s cubic-bezier(.2,.75,.25,1) .3s backwards;isolation:auto}
+@keyframes heroIn{from{opacity:0;transform:rotateY(-28deg) translateX(60px) scale(.94)}to{opacity:1;transform:rotateX(0) rotateY(0)}}
+.hero-visual:before{content:"";position:absolute;inset:16px -10px 4px 44px;border:1.5px solid #d8a13b99;border-radius:190px 190px 22px 22px;transform:translateZ(-55px);pointer-events:none}
+.hero .hero-visual .hero-photo,.hero .hero-visual:hover .hero-photo{transform:translateZ(0) translateY(calc(var(--sy,0)*-.04px));box-shadow:0 40px 70px #173f3230,0 10px 20px #173f3214;transition:filter .5s ease}
+.hero .photo-tag{transform:translateZ(80px);box-shadow:0 30px 50px #173f3230}
+
+/* stacked paper sections */
+.about{border-radius:46px 46px 0 0;padding-bottom:130px;position:relative;z-index:1}
+.enquiry{border-radius:46px 46px 0 0;margin-top:-46px;position:relative;z-index:2;box-shadow:0 -24px 50px #0715104d}
+.about-art{transform-style:preserve-3d}
+.about-art img{transform:translateY(var(--py,0px)) scale(1.14);transition:transform .25s linear}
+.about-art:hover img{transform:translateY(var(--py,0px)) scale(1.18)}
+
+/* section transitions: 3D swing-in */
+.reveal{opacity:0;transform:perspective(1000px) translateY(54px) rotateX(-14deg) scale(.96);transform-origin:50% 100%;transition:opacity .8s ease,transform 1s cubic-bezier(.2,.75,.25,1)}
+.about-art.reveal{transform:perspective(1000px) translateX(-60px) rotateY(20deg) scale(.95);transform-origin:0 50%}
+.enquiry-copy.reveal{transform:perspective(1000px) translateX(-40px) rotateY(12deg)}
+.form-card.reveal{transform:perspective(1000px) translateX(60px) rotateY(-16deg) scale(.96);transform-origin:100% 50%}
+.reveal.is-visible.is-visible{opacity:1;transform:none}
+.section-head h2{transform-style:preserve-3d}
+
+/* 3D tilt cards */
+.service-card,.food-card{position:relative;transform-style:preserve-3d}
+.service-card{overflow:visible}.service-card:before{border-radius:13px 13px 0 0}
+.service-card .service-icon,.service-card:hover .service-icon{transform:translateZ(48px);box-shadow:0 14px 20px #d9a44140}
+.service-card h3{transform:translateZ(28px)}.service-card p{transform:translateZ(14px)}
+.service-card:after,.food-card:after{content:"";position:absolute;inset:0;border-radius:inherit;pointer-events:none;opacity:0;transition:opacity .3s;background:radial-gradient(circle at var(--gx,50%) var(--gy,50%),var(--glare),transparent 55%)}
+.service-card{--glare:#d9a44128}.food-card{--glare:#ffffff55}
+.is-tilting:after{opacity:1}
+.tilt-ready,.tilt-ready:hover{transform:perspective(900px) rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateZ(0)!important;transition:transform .18s ease-out,box-shadow .35s ease,opacity .5s!important;transition-delay:0s!important}
+.tilt-ready.is-tilting{box-shadow:0 34px 50px #173f3226,0 8px 14px #173f3212}
+
+/* tactile 3D buttons */
+.btn.btn-green{box-shadow:0 4px 0 #0c261d,0 14px 22px #173f3230}
+.btn.btn-gold,.nav-cta{box-shadow:0 4px 0 #a47a1f,0 14px 22px #d9a44140}
+.btn.btn-green:hover,.btn.btn-gold:hover,.nav-cta:hover{transform:translateY(-2px)}
+.btn.btn-green:hover{box-shadow:0 6px 0 #0c261d,0 18px 26px #173f3238}
+.btn.btn-gold:hover,.nav-cta:hover{box-shadow:0 6px 0 #a47a1f,0 18px 26px #d9a44150}
+.btn.btn-green:active,.btn.btn-gold:active,.nav-cta:active{transform:translateY(3px);box-shadow:0 1px 0 #0c261d,0 4px 8px #173f3230}
+
+@media(max-width:680px){.about,.enquiry{border-radius:30px 30px 0 0}.enquiry{margin-top:-30px}.about-art.reveal,.enquiry-copy.reveal,.form-card.reveal{transform:perspective(1000px) translateY(46px) rotateX(-10deg)}.hero-visual:before{inset:14px 0 4px 20px}}
+@media(prefers-reduced-motion:reduce){#intro{display:none}body:not(.loaded){overflow:auto}.hero h1,.hero-visual{animation:none}.reveal,.reveal.is-visible.is-visible{opacity:1;transform:none}.tilt-ready,.tilt-ready:hover{transform:none!important}.about-art img{transform:scale(1.05)}#progress{display:none}}
+
+/* gallery + image safety */
+
+.gallery{background:linear-gradient(180deg,#fffaf1,#f2ecdf);overflow:hidden}
+.tiles{display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;padding:34px max(4%,calc((100vw - 1160px)/2)) 56px;perspective:1300px;scrollbar-width:thin;scrollbar-color:#d8a13b transparent}
+.tile{flex:0 0 min(76vw,300px);aspect-ratio:3/4;scroll-snap-align:center;position:relative;transform-style:preserve-3d}
+.tile-in{position:absolute;inset:0;border-radius:18px;overflow:hidden;background:#173f32;box-shadow:0 26px 40px #173f3233,0 6px 12px #173f3218;transform:rotateY(-9deg);transition:transform .6s cubic-bezier(.2,.75,.25,1),box-shadow .6s}
+.tile:nth-child(even) .tile-in{transform:rotateY(9deg)}
+.tile:hover .tile-in{transform:rotateY(0) translateY(-10px) scale(1.02);box-shadow:0 40px 56px #173f3240}
+.tile img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .8s ease}
+.tile:hover img{transform:scale(1.07)}
+.tile figcaption{position:absolute;left:0;right:0;bottom:0;padding:46px 18px 16px;color:#fff;font-family:'Playfair Display',serif;font-size:1.15rem;background:linear-gradient(0deg,#0c261dee,transparent)}
+.tile figcaption small{display:block;font:600 .72rem 'DM Sans',sans-serif;letter-spacing:.14em;color:#f1cc78;margin-bottom:3px}
+.gallery-hint{text-align:center;color:var(--muted);font-size:.85rem;margin:0}
+@media(prefers-reduced-motion:reduce){.tile-in,.tile:nth-child(even) .tile-in{transform:none}}
+
+/* built-in food illustrations (always visible; photos cover them when loaded) */
+.ill-thali img{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23f1dcae%22/%3E%3Cg opacity=%22.12%22 fill=%22%237a5a20%22%3E%3Ccircle cx=%2240%22 cy=%2250%22 r=%223%22/%3E%3Ccircle cx=%22360%22 cy=%2290%22 r=%223%22/%3E%3Ccircle cx=%2260%22 cy=%22350%22 r=%223%22/%3E%3Ccircle cx=%22350%22 cy=%22340%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22200%22 cy=%22205%22 r=%22173%22 fill=%22%230002%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22165%22 fill=%22%23dfe3e6%22 stroke=%22%23aeb6bb%22 stroke-width=%224%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22147%22 fill=%22%23eef1f3%22 stroke=%22%23c4cacd%22 stroke-width=%222%22/%3E%3Ccircle cx=%22200%22 cy=%22121%22 r=%2237%22 fill=%22%230003%22/%3E%3Ccircle cx=%22200%22 cy=%22118%22 r=%2234%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22200%22 cy=%22118%22 r=%2228%22 fill=%22%23e8b830%22/%3E%3Ccircle cx=%22189.8%22 cy=%22107.8%22 r=%226.800000000000001%22 fill=%22%23f6d56a%22 opacity=%22.7%22/%3E%3Ccircle cx=%22268%22 cy=%22163%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22268%22 cy=%22160%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22268%22 cy=%22160%22 r=%2226%22 fill=%22%23c8532a%22/%3E%3Ccircle cx=%22258.4%22 cy=%22150.4%22 r=%226.4%22 fill=%22%23e07a4a%22 opacity=%22.7%22/%3E%3Ccircle cx=%22250%22 cy=%22241%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22250%22 cy=%22238%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22250%22 cy=%22238%22 r=%2226%22 fill=%22%23f0dc7a%22/%3E%3Ccircle cx=%22240.4%22 cy=%22228.4%22 r=%226.4%22 fill=%22%23fff0a8%22 opacity=%22.7%22/%3E%3Ccircle cx=%22150%22 cy=%22241%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22150%22 cy=%22238%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22150%22 cy=%22238%22 r=%2226%22 fill=%22%235c8a3c%22/%3E%3Ccircle cx=%22140.4%22 cy=%22228.4%22 r=%226.4%22 fill=%22%2386b35a%22 opacity=%22.7%22/%3E%3Ccircle cx=%22132%22 cy=%22163%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22132%22 cy=%22160%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22132%22 cy=%22160%22 r=%2226%22 fill=%22%23b8672e%22/%3E%3Ccircle cx=%22122.4%22 cy=%22150.4%22 r=%226.4%22 fill=%22%23d98b4c%22 opacity=%22.7%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%220%22 fill=%22%23e3b46a%22 stroke=%22%23c28a3a%22 stroke-width=%222%22/%3E%3Cg fill=%22%23b9772c%22 opacity=%22.55%22%3E%3Ccircle cx=%22200.0%22 cy=%22200.0%22 r=%224%22/%3E%3Ccircle cx=%22200.0%22 cy=%22200.0%22 r=%225%22/%3E%3Ccircle cx=%22200%22 cy=%22200.0%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22214%22 cy=%22300%22 r=%2226%22 fill=%22%23e3b46a%22 stroke=%22%23c28a3a%22 stroke-width=%222%22/%3E%3Cg fill=%22%23b9772c%22 opacity=%22.55%22%3E%3Ccircle cx=%22206.2%22 cy=%22294.8%22 r=%224%22/%3E%3Ccircle cx=%22220.5%22 cy=%22302.6%22 r=%225%22/%3E%3Ccircle cx=%22214%22 cy=%22310.4%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22176%22 cy=%22300%22 r=%2226%22 fill=%22%23e3b46a%22 stroke=%22%23c28a3a%22 stroke-width=%222%22/%3E%3Cg fill=%22%23b9772c%22 opacity=%22.55%22%3E%3Ccircle cx=%22168.2%22 cy=%22294.8%22 r=%224%22/%3E%3Ccircle cx=%22182.5%22 cy=%22302.6%22 r=%225%22/%3E%3Ccircle cx=%22176%22 cy=%22310.4%22 r=%223%22/%3E%3C/g%3E%3Cellipse cx=%22200%22 cy=%22198%22 rx=%2234%22 ry=%2224%22 fill=%22%23fff%22 stroke=%22%23e1e4e6%22/%3E%3Cg fill=%22%23fff%22%3E%3Ccircle cx=%22190%22 cy=%22192%22 r=%224%22/%3E%3Ccircle cx=%22204%22 cy=%22196%22 r=%224%22/%3E%3C/g%3E%3C/svg%3E") center/cover}
+.ill-paneer img{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23f1dcae%22/%3E%3Cg opacity=%22.12%22 fill=%22%237a5a20%22%3E%3Ccircle cx=%2240%22 cy=%2250%22 r=%223%22/%3E%3Ccircle cx=%22360%22 cy=%2290%22 r=%223%22/%3E%3Ccircle cx=%2260%22 cy=%22350%22 r=%223%22/%3E%3Ccircle cx=%22350%22 cy=%22340%22 r=%223%22/%3E%3C/g%3E%3Cellipse cx=%22268%22 cy=%22290%22 rx=%2292%22 ry=%2266%22 transform=%22rotate%28-20 268 290%29%22 fill=%22%230002%22/%3E%3Cellipse cx=%22262%22 cy=%22282%22 rx=%2292%22 ry=%2264%22 transform=%22rotate%28-20 262 282%29%22 fill=%22%23e4bf7e%22 stroke=%22%23c4953f%22 stroke-width=%223%22/%3E%3Cg fill=%22%239b6a24%22 opacity=%22.5%22%3E%3Ccircle cx=%22230%22 cy=%22270%22 r=%226%22/%3E%3Ccircle cx=%22270%22 cy=%22292%22 r=%227%22/%3E%3Ccircle cx=%22300%22 cy=%22262%22 r=%225%22/%3E%3Ccircle cx=%22246%22 cy=%22308%22 r=%225%22/%3E%3C/g%3E%3Ccircle cx=%22165%22 cy=%22150%22 r=%22132%22 fill=%22%230003%22 transform=%22translate%284 6%29%22/%3E%3Ccircle cx=%22165%22 cy=%22150%22 r=%22130%22 fill=%22%23b5651d%22 stroke=%22%238a4a12%22 stroke-width=%224%22/%3E%3Ccircle cx=%22165%22 cy=%22150%22 r=%22112%22 fill=%22%23e0762b%22/%3E%3Cpath d=%22M80 150Q120 110 165 150T250 150%22 stroke=%22%23fbe7c4%22 stroke-width=%229%22 fill=%22none%22 stroke-linecap=%22round%22 opacity=%22.85%22/%3E%3Cg fill=%22%23fbf1d0%22 stroke=%22%23e3cf98%22 stroke-width=%222%22%3E%3Crect x=%22108%22 y=%22102%22 width=%2238%22 height=%2234%22 rx=%227%22 transform=%22rotate%28-14 127 119%29%22/%3E%3Crect x=%22170%22 y=%2296%22 width=%2238%22 height=%2234%22 rx=%227%22 transform=%22rotate%2812 189 113%29%22/%3E%3Crect x=%22190%22 y=%22156%22 width=%2238%22 height=%2234%22 rx=%227%22 transform=%22rotate%28-8 209 173%29%22/%3E%3Crect x=%22116%22 y=%22164%22 width=%2238%22 height=%2234%22 rx=%227%22 transform=%22rotate%2818 135 181%29%22/%3E%3C/g%3E%3Cg fill=%22%233f7a2c%22%3E%3Ccircle cx=%22150%22 cy=%22150%22 r=%224%22/%3E%3Ccircle cx=%22178%22 cy=%22142%22 r=%223%22/%3E%3Ccircle cx=%22160%22 cy=%22188%22 r=%224%22/%3E%3Ccircle cx=%22222%22 cy=%22136%22 r=%223%22/%3E%3C/g%3E%3C/svg%3E") center/cover}
+.ill-dosa img{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23f1dcae%22/%3E%3Cg opacity=%22.12%22 fill=%22%237a5a20%22%3E%3Ccircle cx=%2240%22 cy=%2250%22 r=%223%22/%3E%3Ccircle cx=%22360%22 cy=%2290%22 r=%223%22/%3E%3Ccircle cx=%2260%22 cy=%22350%22 r=%223%22/%3E%3Ccircle cx=%22350%22 cy=%22340%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22200%22 cy=%22205%22 r=%22173%22 fill=%22%230002%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22165%22 fill=%22%23dfe3e6%22 stroke=%22%23aeb6bb%22 stroke-width=%224%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22147%22 fill=%22%23eef1f3%22 stroke=%22%23c4cacd%22 stroke-width=%222%22/%3E%3Cellipse cx=%22200%22 cy=%22192%22 rx=%22150%22 ry=%2260%22 transform=%22rotate%28-18 200 192%29%22 fill=%22%230002%22/%3E%3Cellipse cx=%22200%22 cy=%22186%22 rx=%22148%22 ry=%2256%22 transform=%22rotate%28-18 200 186%29%22 fill=%22%23e0a548%22 stroke=%22%23b97a22%22 stroke-width=%223%22/%3E%3Cellipse cx=%22190%22 cy=%22180%22 rx=%22110%22 ry=%2230%22 transform=%22rotate%28-18 200 186%29%22 fill=%22%23eec06e%22 opacity=%22.8%22/%3E%3Cg fill=%22%23b9701c%22 opacity=%22.45%22%3E%3Ccircle cx=%22150%22 cy=%22200%22 r=%226%22/%3E%3Ccircle cx=%22210%22 cy=%22170%22 r=%227%22/%3E%3Ccircle cx=%22260%22 cy=%22150%22 r=%225%22/%3E%3Ccircle cx=%22120%22 cy=%22215%22 r=%225%22/%3E%3C/g%3E%3Ccircle cx=%22120%22 cy=%22303%22 r=%2233%22 fill=%22%230003%22/%3E%3Ccircle cx=%22120%22 cy=%22300%22 r=%2230%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22120%22 cy=%22300%22 r=%2224%22 fill=%22%23f6f1de%22/%3E%3Ccircle cx=%22111.0%22 cy=%22291.0%22 r=%226.0%22 fill=%22%23cde3b0%22 opacity=%22.7%22/%3E%3Ccircle cx=%22210%22 cy=%22321%22 r=%2233%22 fill=%22%230003%22/%3E%3Ccircle cx=%22210%22 cy=%22318%22 r=%2230%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22210%22 cy=%22318%22 r=%2224%22 fill=%22%23c4561f%22/%3E%3Ccircle cx=%22201.0%22 cy=%22309.0%22 r=%226.0%22 fill=%22%23e4833f%22 opacity=%22.7%22/%3E%3Ccircle cx=%22298%22 cy=%22299%22 r=%2229%22 fill=%22%230003%22/%3E%3Ccircle cx=%22298%22 cy=%22296%22 r=%2226%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22298%22 cy=%22296%22 r=%2220%22 fill=%22%238fb85a%22/%3E%3C/svg%3E") center/cover}
+.ill-samosa img{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23f1dcae%22/%3E%3Cg opacity=%22.12%22 fill=%22%237a5a20%22%3E%3Ccircle cx=%2240%22 cy=%2250%22 r=%223%22/%3E%3Ccircle cx=%22360%22 cy=%2290%22 r=%223%22/%3E%3Ccircle cx=%2260%22 cy=%22350%22 r=%223%22/%3E%3Ccircle cx=%22350%22 cy=%22340%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22200%22 cy=%22205%22 r=%22173%22 fill=%22%230002%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22165%22 fill=%22%23dfe3e6%22 stroke=%22%23aeb6bb%22 stroke-width=%224%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22147%22 fill=%22%23eef1f3%22 stroke=%22%23c4cacd%22 stroke-width=%222%22/%3E%3Cg transform=%22translate%28160 170%29 rotate%28-12%29%22%3E%3Cpolygon points=%220%2C-62 58%2C44 -58%2C44%22 fill=%22%230003%22 transform=%22translate%284 6%29%22/%3E%3Cpolygon points=%220%2C-62 58%2C44 -58%2C44%22 fill=%22%23d8962f%22 stroke=%22%23a96a14%22 stroke-width=%225%22 stroke-linejoin=%22round%22/%3E%3Cpolygon points=%220%2C-34 30%2C22 -30%2C22%22 fill=%22%23e8b055%22 opacity=%22.7%22/%3E%3Cg fill=%22%23a96a14%22 opacity=%22.5%22%3E%3Ccircle cx=%22-10%22 cy=%2210%22 r=%224%22/%3E%3Ccircle cx=%2214%22 cy=%22-6%22 r=%223%22/%3E%3C/g%3E%3C/g%3E%3Cg transform=%22translate%28246 180%29 rotate%2818%29%22%3E%3Cpolygon points=%220%2C-62 58%2C44 -58%2C44%22 fill=%22%230003%22 transform=%22translate%284 6%29%22/%3E%3Cpolygon points=%220%2C-62 58%2C44 -58%2C44%22 fill=%22%23d8962f%22 stroke=%22%23a96a14%22 stroke-width=%225%22 stroke-linejoin=%22round%22/%3E%3Cpolygon points=%220%2C-34 30%2C22 -30%2C22%22 fill=%22%23e8b055%22 opacity=%22.7%22/%3E%3Cg fill=%22%23a96a14%22 opacity=%22.5%22%3E%3Ccircle cx=%22-10%22 cy=%2210%22 r=%224%22/%3E%3Ccircle cx=%2214%22 cy=%22-6%22 r=%223%22/%3E%3C/g%3E%3C/g%3E%3Cg transform=%22translate%28200 262%29 rotate%284%29%22%3E%3Cpolygon points=%220%2C-62 58%2C44 -58%2C44%22 fill=%22%230003%22 transform=%22translate%284 6%29%22/%3E%3Cpolygon points=%220%2C-62 58%2C44 -58%2C44%22 fill=%22%23d8962f%22 stroke=%22%23a96a14%22 stroke-width=%225%22 stroke-linejoin=%22round%22/%3E%3Cpolygon points=%220%2C-34 30%2C22 -30%2C22%22 fill=%22%23e8b055%22 opacity=%22.7%22/%3E%3Cg fill=%22%23a96a14%22 opacity=%22.5%22%3E%3Ccircle cx=%22-10%22 cy=%2210%22 r=%224%22/%3E%3Ccircle cx=%2214%22 cy=%22-6%22 r=%223%22/%3E%3C/g%3E%3C/g%3E%3Ccircle cx=%22310%22 cy=%22113%22 r=%2233%22 fill=%22%230003%22/%3E%3Ccircle cx=%22310%22 cy=%22110%22 r=%2230%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22310%22 cy=%22110%22 r=%2224%22 fill=%22%236a9f2e%22/%3E%3Ccircle cx=%22301.0%22 cy=%22101.0%22 r=%226.0%22 fill=%22%239bc95b%22 opacity=%22.7%22/%3E%3Ccircle cx=%2288%22 cy=%22115%22 r=%2231%22 fill=%22%230003%22/%3E%3Ccircle cx=%2288%22 cy=%22112%22 r=%2228%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%2288%22 cy=%22112%22 r=%2222%22 fill=%22%236b3a1e%22/%3E%3Ccircle cx=%2279.6%22 cy=%22103.6%22 r=%225.6000000000000005%22 fill=%22%239a5a2e%22 opacity=%22.7%22/%3E%3C/svg%3E") center/cover}
+.ill-sweet img{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23f1dcae%22/%3E%3Cg opacity=%22.12%22 fill=%22%237a5a20%22%3E%3Ccircle cx=%2240%22 cy=%2250%22 r=%223%22/%3E%3Ccircle cx=%22360%22 cy=%2290%22 r=%223%22/%3E%3Ccircle cx=%2260%22 cy=%22350%22 r=%223%22/%3E%3Ccircle cx=%22350%22 cy=%22340%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22200%22 cy=%22205%22 r=%22173%22 fill=%22%230002%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22165%22 fill=%22%23dfe3e6%22 stroke=%22%23aeb6bb%22 stroke-width=%224%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22147%22 fill=%22%23eef1f3%22 stroke=%22%23c4cacd%22 stroke-width=%222%22/%3E%3Cpolyline points=%22152%2C160 153%2C161 153%2C162 153%2C163 152%2C165 151%2C166 149%2C167 147%2C167 145%2C166 143%2C165 141%2C163 140%2C161 139%2C158 140%2C154 141%2C151 143%2C148 147%2C146 151%2C145 155%2C145 159%2C147 163%2C149 167%2C153 169%2C158 169%2C163 168%2C169 166%2C174 162%2C178 157%2C182 150%2C183 144%2C183 137%2C181 131%2C177 126%2C172 123%2C165 122%2C157 123%2C150 127%2C142 132%2C136 139%2C131 148%2C128 157%2C128 165%2C131 173%2C136 180%2C143 184%2C151 186%2C161 185%2C171 181%2C181 175%2C190 166%2C196%22 fill=%22none%22 stroke=%22%23a6540d%22 stroke-width=%2214%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 opacity=%22.35%22 transform=%22translate%283 4%29%22/%3E%3Cpolyline points=%22152%2C160 153%2C161 153%2C162 153%2C163 152%2C165 151%2C166 149%2C167 147%2C167 145%2C166 143%2C165 141%2C163 140%2C161 139%2C158 140%2C154 141%2C151 143%2C148 147%2C146 151%2C145 155%2C145 159%2C147 163%2C149 167%2C153 169%2C158 169%2C163 168%2C169 166%2C174 162%2C178 157%2C182 150%2C183 144%2C183 137%2C181 131%2C177 126%2C172 123%2C165 122%2C157 123%2C150 127%2C142 132%2C136 139%2C131 148%2C128 157%2C128 165%2C131 173%2C136 180%2C143 184%2C151 186%2C161 185%2C171 181%2C181 175%2C190 166%2C196%22 fill=%22none%22 stroke=%22%23f08a1e%22 stroke-width=%2211%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cpolyline points=%22252%2C150 253%2C151 253%2C152 253%2C153 252%2C155 251%2C156 249%2C157 247%2C157 245%2C156 243%2C155 241%2C153 240%2C151 239%2C148 240%2C144 241%2C141 243%2C138 247%2C136 251%2C135 255%2C135 259%2C137 263%2C139 267%2C143 269%2C148 269%2C153 268%2C159 266%2C164 262%2C168 257%2C172 250%2C173 244%2C173 237%2C171 231%2C167 226%2C162 223%2C155 222%2C147 223%2C140 227%2C132 232%2C126 239%2C121 248%2C118 257%2C118 265%2C121 273%2C126 280%2C133 284%2C141 286%2C151 285%2C161 281%2C171 275%2C180 266%2C186%22 fill=%22none%22 stroke=%22%23a6540d%22 stroke-width=%2214%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 opacity=%22.35%22 transform=%22translate%283 4%29%22/%3E%3Cpolyline points=%22252%2C150 253%2C151 253%2C152 253%2C153 252%2C155 251%2C156 249%2C157 247%2C157 245%2C156 243%2C155 241%2C153 240%2C151 239%2C148 240%2C144 241%2C141 243%2C138 247%2C136 251%2C135 255%2C135 259%2C137 263%2C139 267%2C143 269%2C148 269%2C153 268%2C159 266%2C164 262%2C168 257%2C172 250%2C173 244%2C173 237%2C171 231%2C167 226%2C162 223%2C155 222%2C147 223%2C140 227%2C132 232%2C126 239%2C121 248%2C118 257%2C118 265%2C121 273%2C126 280%2C133 284%2C141 286%2C151 285%2C161 281%2C171 275%2C180 266%2C186%22 fill=%22none%22 stroke=%22%23f08a1e%22 stroke-width=%2211%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cpolyline points=%22202%2C250 203%2C251 203%2C252 203%2C253 202%2C255 201%2C256 199%2C257 197%2C257 195%2C256 193%2C255 191%2C253 190%2C251 189%2C248 190%2C244 191%2C241 193%2C238 197%2C236 201%2C235 205%2C235 209%2C237 213%2C239 217%2C243 219%2C248 219%2C253 218%2C259 216%2C264 212%2C268 207%2C272 200%2C273 194%2C273 187%2C271 181%2C267 176%2C262 173%2C255 172%2C247 173%2C240 177%2C232 182%2C226 189%2C221 198%2C218 207%2C218 215%2C221 223%2C226 230%2C233 234%2C241 236%2C251 235%2C261 231%2C271 225%2C280 216%2C286%22 fill=%22none%22 stroke=%22%23a6540d%22 stroke-width=%2214%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22 opacity=%22.35%22 transform=%22translate%283 4%29%22/%3E%3Cpolyline points=%22202%2C250 203%2C251 203%2C252 203%2C253 202%2C255 201%2C256 199%2C257 197%2C257 195%2C256 193%2C255 191%2C253 190%2C251 189%2C248 190%2C244 191%2C241 193%2C238 197%2C236 201%2C235 205%2C235 209%2C237 213%2C239 217%2C243 219%2C248 219%2C253 218%2C259 216%2C264 212%2C268 207%2C272 200%2C273 194%2C273 187%2C271 181%2C267 176%2C262 173%2C255 172%2C247 173%2C240 177%2C232 182%2C226 189%2C221 198%2C218 207%2C218 215%2C221 223%2C226 230%2C233 234%2C241 236%2C251 235%2C261 231%2C271 225%2C280 216%2C286%22 fill=%22none%22 stroke=%22%23f08a1e%22 stroke-width=%2211%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22/%3E%3Cg fill=%22%235f9a3a%22%3E%3Ccircle cx=%22198%22 cy=%22248%22 r=%224%22/%3E%3Ccircle cx=%22150%22 cy=%22158%22 r=%224%22/%3E%3Ccircle cx=%22252%22 cy=%22150%22 r=%224%22/%3E%3C/g%3E%3C/svg%3E") center/cover}
+.hero-photo{background:url("data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 400%22%3E%3Crect width=%22400%22 height=%22400%22 fill=%22%23f1dcae%22/%3E%3Cg opacity=%22.12%22 fill=%22%237a5a20%22%3E%3Ccircle cx=%2240%22 cy=%2250%22 r=%223%22/%3E%3Ccircle cx=%22360%22 cy=%2290%22 r=%223%22/%3E%3Ccircle cx=%2260%22 cy=%22350%22 r=%223%22/%3E%3Ccircle cx=%22350%22 cy=%22340%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22200%22 cy=%22205%22 r=%22173%22 fill=%22%230002%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22165%22 fill=%22%23dfe3e6%22 stroke=%22%23aeb6bb%22 stroke-width=%224%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%22147%22 fill=%22%23eef1f3%22 stroke=%22%23c4cacd%22 stroke-width=%222%22/%3E%3Ccircle cx=%22200%22 cy=%22121%22 r=%2237%22 fill=%22%230003%22/%3E%3Ccircle cx=%22200%22 cy=%22118%22 r=%2234%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22200%22 cy=%22118%22 r=%2228%22 fill=%22%23e8b830%22/%3E%3Ccircle cx=%22189.8%22 cy=%22107.8%22 r=%226.800000000000001%22 fill=%22%23f6d56a%22 opacity=%22.7%22/%3E%3Ccircle cx=%22268%22 cy=%22163%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22268%22 cy=%22160%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22268%22 cy=%22160%22 r=%2226%22 fill=%22%23c8532a%22/%3E%3Ccircle cx=%22258.4%22 cy=%22150.4%22 r=%226.4%22 fill=%22%23e07a4a%22 opacity=%22.7%22/%3E%3Ccircle cx=%22250%22 cy=%22241%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22250%22 cy=%22238%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22250%22 cy=%22238%22 r=%2226%22 fill=%22%23f0dc7a%22/%3E%3Ccircle cx=%22240.4%22 cy=%22228.4%22 r=%226.4%22 fill=%22%23fff0a8%22 opacity=%22.7%22/%3E%3Ccircle cx=%22150%22 cy=%22241%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22150%22 cy=%22238%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22150%22 cy=%22238%22 r=%2226%22 fill=%22%235c8a3c%22/%3E%3Ccircle cx=%22140.4%22 cy=%22228.4%22 r=%226.4%22 fill=%22%2386b35a%22 opacity=%22.7%22/%3E%3Ccircle cx=%22132%22 cy=%22163%22 r=%2235%22 fill=%22%230003%22/%3E%3Ccircle cx=%22132%22 cy=%22160%22 r=%2232%22 fill=%22%23c9ced1%22 stroke=%22%239aa3a8%22 stroke-width=%222%22/%3E%3Ccircle cx=%22132%22 cy=%22160%22 r=%2226%22 fill=%22%23b8672e%22/%3E%3Ccircle cx=%22122.4%22 cy=%22150.4%22 r=%226.4%22 fill=%22%23d98b4c%22 opacity=%22.7%22/%3E%3Ccircle cx=%22200%22 cy=%22200%22 r=%220%22 fill=%22%23e3b46a%22 stroke=%22%23c28a3a%22 stroke-width=%222%22/%3E%3Cg fill=%22%23b9772c%22 opacity=%22.55%22%3E%3Ccircle cx=%22200.0%22 cy=%22200.0%22 r=%224%22/%3E%3Ccircle cx=%22200.0%22 cy=%22200.0%22 r=%225%22/%3E%3Ccircle cx=%22200%22 cy=%22200.0%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22214%22 cy=%22300%22 r=%2226%22 fill=%22%23e3b46a%22 stroke=%22%23c28a3a%22 stroke-width=%222%22/%3E%3Cg fill=%22%23b9772c%22 opacity=%22.55%22%3E%3Ccircle cx=%22206.2%22 cy=%22294.8%22 r=%224%22/%3E%3Ccircle cx=%22220.5%22 cy=%22302.6%22 r=%225%22/%3E%3Ccircle cx=%22214%22 cy=%22310.4%22 r=%223%22/%3E%3C/g%3E%3Ccircle cx=%22176%22 cy=%22300%22 r=%2226%22 fill=%22%23e3b46a%22 stroke=%22%23c28a3a%22 stroke-width=%222%22/%3E%3Cg fill=%22%23b9772c%22 opacity=%22.55%22%3E%3Ccircle cx=%22168.2%22 cy=%22294.8%22 r=%224%22/%3E%3Ccircle cx=%22182.5%22 cy=%22302.6%22 r=%225%22/%3E%3Ccircle cx=%22176%22 cy=%22310.4%22 r=%223%22/%3E%3C/g%3E%3Cellipse cx=%22200%22 cy=%22198%22 rx=%2234%22 ry=%2224%22 fill=%22%23fff%22 stroke=%22%23e1e4e6%22/%3E%3Cg fill=%22%23fff%22%3E%3Ccircle cx=%22190%22 cy=%22192%22 r=%224%22/%3E%3Ccircle cx=%22204%22 cy=%22196%22 r=%224%22/%3E%3C/g%3E%3C/svg%3E") center/cover}
+
+/* Real food photography: do not show decorative illustration fallbacks. */
+.food-card img,.tile img,.hero-photo{background:none!important}
+
+
+/* Consistent classic food-photography presentation */
+.hero-photo,.food-card img,.tile img,.about-art img{
+  background:none!important;
+  object-fit:cover;
+  object-position:center center;
+  filter:saturate(1.04) contrast(1.02);
+}
+.food-card img{height:220px;transition:transform .55s cubic-bezier(.2,.7,.2,1)}
+.food-card{overflow:hidden}
+.food-card:hover img{transform:scale(1.035)}
+.tile{overflow:hidden}
+.tile img{transition:transform .6s ease}
+.tile:hover img{transform:scale(1.035)}
+.about-art img{object-position:center 48%}
+.hero-photo{object-position:center 52%}
+@media(max-width:680px){.food-card img{height:190px}}
+
+/* Classic editorial food gallery: consistent framing and natural food-photo angles */
+.hero-photo,.food-card img,.tile img,.about-art img{object-fit:cover!important;object-position:50% 48%!important;}
+.tile img{width:100%;height:100%;display:block;filter:saturate(1.05) contrast(1.03);}
+.tile{border-radius:14px;overflow:hidden;background:#eee7d9;}
+.food-card{border-radius:14px;overflow:hidden;box-shadow:0 8px 24px rgba(23,63,50,.07);}
+.food-card img{object-position:center center!important;}
+.hero-photo{object-position:center 52%!important;}
+
+/* Final visual refinement */
+.gallery{position:relative;padding-top:88px;padding-bottom:88px}
+.tiles{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:22px;
+  overflow:visible;
+  padding:12px 0 0;
+  perspective:none;
+}
+.tile{min-width:0;width:100%;aspect-ratio:4/5;flex:auto}
+.tile-in,.tile:nth-child(even) .tile-in{
+  transform:none;
+  border:1px solid #ffffffa8;
+  box-shadow:0 14px 34px #173f3220,0 3px 8px #173f3210;
+}
+.tile:hover .tile-in{
+  transform:translateY(-7px) scale(1.015);
+  box-shadow:0 25px 42px #173f3230;
+}
+.tile figcaption{padding:54px 17px 18px;font-size:1.2rem}
+.tile figcaption small{letter-spacing:.17em}
+.hero{isolation:isolate}
+.hero-photo{border:5px solid #fffaf1}
+.photo-tag{box-shadow:0 18px 42px #173f3226}
+.section-head h2{position:relative}
+.section-head h2:after{
+  content:"";
+  display:block;
+  width:54px;
+  height:2px;
+  margin:17px auto 0;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+.service-card,.food-card,.form-card{border-radius:16px}
+.food-card{box-shadow:0 12px 30px #173f3210}
+.food-card img{height:205px}
+.contact-card{border:1px solid #ffffff20}
+footer{padding-top:38px;padding-bottom:38px}
+@media(max-width:900px){
+  .tiles{grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}
+}
+@media(max-width:600px){
+  .gallery{padding-top:62px;padding-bottom:64px}
+  .tiles{grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;padding-top:5px}
+  .tile{aspect-ratio:3/4}
+  .tile figcaption{font-size:1rem;padding:42px 12px 13px}
+  .tile figcaption small{font-size:.65rem}
+  .food-card img{height:150px}
+}
+@media(prefers-reduced-motion:reduce){
+  .tile-in,.tile:nth-child(even) .tile-in{transform:none}
+}
+
+</style><noscript><style>#intro{display:none}body:not(.loaded){overflow:auto}</style></noscript>
+</head>
+<body>
+<div aria-hidden="true" id="intro"><div class="curtain l"></div><div class="curtain r"></div><div class="seal">R</div></div><div aria-hidden="true" id="progress"></div>
+<header>
+<div aria-label="શ્રીજી પ્રસન્નસ્તુ" class="shreeji-banner">
+<span aria-hidden="true" class="ornament"><i></i><i></i></span>
+<span class="shreeji-center"><span class="shreeji-text" lang="gu">શ્રીજી</span><span class="shreeji-blessing" lang="gu">શ્રીજી પ્રસન્નસ્તુ</span></span>
+<span aria-hidden="true" class="ornament"><i></i><i></i></span>
+</div>
+<div class="container nav">
+<a aria-label="Ripal Caterers home" class="brand" href="#home"><span class="brand-mark">R</span><span>RIPAL<br/>CATERERS</span></a>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-toggle" onclick="toggleMenu()">☰</button>
+<nav aria-label="Main navigation" class="navlinks" id="navlinks">
+<a href="#home" onclick="closeMenu()">Home</a><a href="#services" onclick="closeMenu()">Services</a><a href="#menu" onclick="closeMenu()">Our Food</a><a href="#about" onclick="closeMenu()">Why Ripal</a><a href="#enquiry" onclick="closeMenu()">Contact</a>
+</nav>
+<a class="nav-cta" href="#enquiry">Get a Quote <span>↗</span></a>
+</div>
+</header>
+<main>
+<section class="hero" id="home">
+<div class="container">
+<div aria-label="Ripal Caterers, pure vegetarian catering" class="hero-brand-lockup">
+<div class="hero-logo-seal"><span class="logo-leaf">❧</span><span class="logo-letter">R</span><span class="logo-spark">✦</span></div>
+<div class="hero-logo-wordmark">RIPAL <span>CATERERS</span></div>
+<div class="hero-logo-rule"><i></i><span>PURE VEGETARIAN CATERING</span><i></i></div>
+<p class="hero-logo-tagline">Every gathering deserves something delicious.</p>
+</div>
+</div>
+<div class="container hero-grid">
+<div>
+<div class="eyebrow">Thoughtfully prepared. Beautifully served.</div>
+<h1>Make Every Gathering<br/><em>Deliciously Special.</em></h1>
+<p class="hero-copy">From intimate family celebrations to joyful community occasions, Ripal Caterers brings people together with flavourful pure-vegetarian food, warm service and menus shaped around your event.</p>
+<div class="hero-actions"><a class="btn btn-green" href="#enquiry">Plan Your Event <span>↗</span></a><a class="btn btn-outline" href="https://wa.me/919638315514?text=Hello%20Ripal%20Caterers%2C%20I%20would%20like%20to%20enquire%20about%20catering." rel="noopener" target="_blank">☏ Chat on WhatsApp</a></div>
+<div class="trust"><span><b class="check">✓</b> 100% Vegetarian</span><span><b class="check">✓</b> Made for your occasion</span><span><b class="check">✓</b> Personalised enquiries</span></div>
+</div>
+<div class="hero-visual">
+<img alt="Creamy vegetarian paneer curry served with herbs" class="hero-photo" decoding="async" fetchpriority="high" loading="eager" onerror="this.alt='';this.removeAttribute('src')" referrerpolicy="no-referrer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2025/2/20/13c76666-4ab2-4424-a48a-a983937df8aa_01c53038-6b02-401f-92ac-929f02f2b95c.jpg"/>
+<div class="photo-tag"><span class="tag-icon">✦</span><div><strong>A table full of joy</strong><small>Thoughtful food for your people.</small></div></div>
+</div>
+</div>
+</section>
+<div aria-label="Ripal Caterers highlights" class="quick-strip">
+<div class="container quick-strip-inner">
+<span><b>100%</b> Vegetarian</span><i aria-hidden="true"></i>
+<span><b>Made to order</b> for your occasion</span><i aria-hidden="true"></i>
+<span><b>Easy</b> WhatsApp enquiries</span>
+</div>
+</div>
+<section class="services" id="services">
+<div class="container">
+<div class="section-head"><div class="eyebrow">Made for every gathering</div><h2>Catering That Makes Moments</h2><p>From the first welcome bite to the final sweet note, we help you plan a spread that feels right for your guests, occasion and preferences.</p></div>
+<div class="service-grid">
+<article class="service-card"><div class="service-icon">💍</div><h3>Weddings &amp; Celebrations</h3><p>Make your big day extra special with a vegetarian spread your guests will love.</p></article>
+<article class="service-card"><div class="service-icon">🎉</div><h3>Family Functions</h3><p>Birthdays, anniversaries, festivals and get-togethers—food made for sharing.</p></article>
+<article class="service-card"><div class="service-icon">🏢</div><h3>Corporate &amp; Events</h3><p>Reliable catering enquiries for office events, meetings and community occasions.</p></article>
+</div>
+</div>
+</section>
+<section id="menu">
+<div class="container">
+<div class="section-head"><div class="eyebrow">A taste of India</div><h2>A Feast of India’s Vegetarian Favourites</h2><p>From Gujarati comfort food to Punjabi favourites and South Indian classics, discover vegetarian menu inspiration for every kind of celebration.</p></div>
+<div class="menu-grid">
+<article class="food-card ill-paneer"><img alt="Shahi paneer in creamy tomato gravy with herbs" decoding="async" loading="lazy" onerror="this.alt='';this.removeAttribute('src')" referrerpolicy="no-referrer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto/FOOD_CATALOG/IMAGES/CMS/2025/2/20/13c76666-4ab2-4424-a48a-a983937df8aa_01c53038-6b02-401f-92ac-929f02f2b95c.jpg"/><div><h3>Punjabi Classics</h3><p>Paneer favourites, rich vegetarian gravies, naan and fragrant rice.</p></div></article>
+<article class="food-card ill-dosa"><img alt="Crispy masala dosa served with sambar and chutneys" decoding="async" loading="lazy" onerror="this.alt='';this.removeAttribute('src')" referrerpolicy="no-referrer" src="https://jaiindiankitchen.com/media/products/masala-dosa-jai-indian-kitchen.jpeg"/><div><h3>South Indian</h3><p>Crispy dosa, idli, uttapam, sambar and delicious chutneys.</p></div></article>
+<article class="food-card ill-thali"><img alt="Rajasthani dal baati churma platter" decoding="async" loading="lazy" onerror="this.alt='';this.removeAttribute('src')" referrerpolicy="no-referrer" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_900/FOOD_CATALOG/IMAGES/CMS/2025/7/14/10f2a0eb-0c1d-482e-815b-3ed765ea73bc_9f00ac92-aae1-4b90-9cb1-3efb0e3f4493.jpg"/><div><h3>Rajasthani Flavours</h3><p>Traditional regional favourites with bold spices and homestyle warmth.</p></div></article>
+<article class="food-card ill-sweet"><img alt="Assorted Indian sweets including jalebi and gulab jamun" decoding="async" loading="lazy" onerror="this.alt='';this.removeAttribute('src')" referrerpolicy="no-referrer" src="https://dineout-media-assets.swiggy.com/swiggy/image/upload/fl_lossy%2Cf_auto%2Cq_auto%2Cw_900/DINEOUT_ALL_RESTAURANTS/IMAGES/RESTAURANT_IMAGE_SERVICE/2025/12/31/e87da953-7711-46bd-bad4-ee0207fd9d4e_image120eda0c510be448f98cda39dd4bfc8136.JPG"/><div><h3>Sweets &amp; Desserts</h3><p>A delightful sweet finish for weddings, festivals and family events.</p></div></article>
+</div>
+<p class="menu-note">Menu and availability can be discussed for your event. Every menu shown here is inspiration for a 100% vegetarian spread. Final dishes and availability can be discussed for your event—share your date, guest count and preferences below.</p>
+</div>
+</section>
+<section class="gallery" id="gallery">
+<div class="container"><div class="section-head"><div class="eyebrow">From our kitchen inspiration</div><h2>Gujarati, Punjabi &amp; South Indian Favourites</h2><p>A look at the pure vegetarian dishes we can plan for your celebration.</p></div></div>
+</section>
+<section class="about" id="about">
+<div class="container about-grid">
+
+<div><div class="eyebrow">The Ripal experience</div><h2>Made with care. Shared with joy.</h2><p>We believe memorable occasions are made of meaningful moments, welcoming hospitality and food people love to share. Tell us about your celebration, guest count and favourite flavours, and we’ll discuss a catering plan that suits your needs.</p><div class="about-points"><div>Pure Vegetarian<span>Vegetarian food for your gathering</span></div><div>Made for Your Event<span>Discuss your menu and needs</span></div><div>Indian Flavours<span>Gujarati, Rajasthani, Punjabi &amp; more</span></div><div>Easy Enquiry<span>Get in touch by form or WhatsApp</span></div></div><div class="hero-actions"><a class="btn btn-gold" href="#enquiry">Let’s Plan Together ↗</a></div></div>
+</div>
+</section>
+<section class="enquiry" id="enquiry">
+<div class="container enquiry-grid">
+<div class="enquiry-copy"><div class="eyebrow">Let’s make it delicious</div><h2>Let’s Plan Something Delicious.</h2><p>Share a few details about your occasion. We’ll prepare your enquiry in WhatsApp so you can review it and send it directly to our team.</p><div class="contact-card"><small>Prefer to chat directly?</small><a href="https://wa.me/919638315514?text=Hello%20Ripal%20Caterers%2C%20I%20would%20like%20to%20discuss%20a%20catering%20enquiry." rel="noopener" target="_blank">Chat with us on WhatsApp ↗</a><small>Tap to open WhatsApp</small></div></div>
+<form class="form-card" id="enquiryForm">
+<h3>Let’s Talk About Your Event</h3>
+<div class="form-grid">
+<div class="field"><label for="name">Your name *</label><input id="name" name="name" placeholder="Enter your name" required=""/></div>
+<div class="field"><label for="phone">Your phone number *</label><input id="phone" inputmode="tel" name="phone" placeholder="Enter phone number" required="" type="tel"/></div>
+<div class="field"><label for="date">Event date</label><input id="date" name="date" type="date"/></div>
+<div class="field"><label for="guests">Number of guests</label><select id="guests" name="guests"><option value="">Select guest count</option><option>Under 50</option><option>50–100</option><option>100–250</option><option>250–500</option><option>500+</option><option>Not decided yet</option></select></div>
+<div class="field"><label for="event">Event type</label><select id="event" name="event"><option value="">Choose event type</option><option>Wedding / Engagement</option><option>Birthday / Anniversary</option><option>Family Function</option><option>Festival / Community Event</option><option>Corporate Event</option><option>Other</option></select></div>
+<div class="field"><label for="cuisine">Cuisine preference</label><select id="cuisine" name="cuisine"><option value="">Choose preference</option><option>Gujarati</option><option>Rajasthani</option><option>Punjabi</option><option>South Indian</option><option>Rajasthani</option><option>Snacks &amp; Chaat</option><option>Sweets &amp; Desserts</option><option>Mixed Indian Vegetarian</option><option>Need suggestions</option></select></div>
+<div class="field full"><label for="message">Anything else we should know?</label><textarea id="message" name="message" placeholder="Venue, menu ideas, serving style or any special requests..."></textarea></div>
+</div>
+<button class="btn btn-green" type="submit">Send Enquiry on WhatsApp <span>↗</span></button>
+<p class="form-hint">This form opens WhatsApp with your details. Review and press Send there to submit your enquiry.</p>
+</form>
+</div>
+</section>
+</main>
+<footer><div class="container footer-row"><div><a class="brand footer-brand" href="#home"><span class="brand-mark">R</span><span>RIPAL CATERERS</span></a><p>Pure vegetarian food. Warm hospitality. Moments worth celebrating.</p></div><div class="footer-links"><a href="#services">Services</a><a href="#menu">Our Food</a><a href="#enquiry">Enquiry</a><a href="https://wa.me/919638315514" rel="noopener" target="_blank">WhatsApp</a></div><p>© <span id="year"></span> Ripal Caterers · Food photographs are illustrative menu inspiration</p></div></footer>
+<a aria-label="Chat with Ripal Caterers on WhatsApp" class="whatsapp-float" href="https://wa.me/919638315514?text=Hello%20Ripal%20Caterers%2C%20I%20would%20like%20to%20enquire%20about%20catering." rel="noopener" target="_blank"><span class="wa-symbol">☏</span> WhatsApp Us</a>
+<script>
+function toggleMenu(){const n=document.getElementById('navlinks');const b=document.querySelector('.menu-toggle');n.classList.toggle('open');b.setAttribute('aria-expanded',n.classList.contains('open'))}
+function closeMenu(){document.getElementById('navlinks').classList.remove('open');document.querySelector('.menu-toggle').setAttribute('aria-expanded','false')}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeMenu()});
+const revealTargets=document.querySelectorAll('.section-head,.service-card,.food-card,.about-art,.about-grid>div,.enquiry-copy,.form-card,.quick-strip-inner,.tile');
+revealTargets.forEach((el,i)=>{el.classList.add('reveal');if(i%4===1)el.classList.add('reveal-delay-1');if(i%4===2)el.classList.add('reveal-delay-2');if(i%4===3)el.classList.add('reveal-delay-3')});
+if('IntersectionObserver' in window){
+ const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target)}}),{threshold:.12,rootMargin:'0px 0px -30px 0px'});
+ revealTargets.forEach(el=>observer.observe(el));
+}else{revealTargets.forEach(el=>el.classList.add('is-visible'))}
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('date').min=new Date().toISOString().slice(0,10);
+document.getElementById('enquiryForm').addEventListener('submit',function(e){
+ e.preventDefault();
+ const val=id=>document.getElementById(id).value.trim()||'Not provided';
+ const message=`Hello Ripal Caterers! I would like to enquire about catering.%0A%0AName: ${encodeURIComponent(val('name'))}%0APhone: ${encodeURIComponent(val('phone'))}%0AEvent date: ${encodeURIComponent(val('date'))}%0AGuests: ${encodeURIComponent(val('guests'))}%0AEvent type: ${encodeURIComponent(val('event'))}%0ACuisine preference: ${encodeURIComponent(val('cuisine'))}%0AAdditional details: ${encodeURIComponent(val('message'))}`;
+ window.open('https://wa.me/919638315514?text='+message,'_blank','noopener');
+});
+(()=>{
+const rm=matchMedia('(prefers-reduced-motion:reduce)').matches,fine=matchMedia('(hover:hover) and (pointer:fine)').matches;
+const intro=document.getElementById('intro'),bar=document.getElementById('progress'),root=document.documentElement;
+const go=()=>{document.body.classList.add('loaded');intro&&setTimeout(()=>intro.remove(),1500)};
+if(rm)go();else{addEventListener('load',()=>setTimeout(go,650));setTimeout(go,3200)}
+const art=document.querySelector('.about-art'),photo=document.querySelector('.hero-photo');
+const cards=[...document.querySelectorAll('.service-card,.food-card')],hv=document.querySelector('.hero-visual');
+// untransformed layout box, so tilting never changes what the pointer is "over" (this was the jitter)
+const box=el=>{let x=0,y=0,e=el;while(e){x+=e.offsetLeft;y+=e.offsetTop;e=e.offsetParent}return{x,y,w:el.offsetWidth,h:el.offsetHeight}};
+let ev=null,pr=0,sr=0;
+function tilt(){pr=0;if(!ev||!fine||rm)return;const px=ev.clientX+scrollX,py=ev.clientY+scrollY;
+ cards.forEach(c=>{const b=box(c),x=(px-b.x)/b.w,y=(py-b.y)/b.h,on=x>=0&&x<=1&&y>=0&&y<=1&&c.classList.contains('is-visible');
+  if(on){c.classList.add('tilt-ready','is-tilting');c.style.setProperty('--ry',(x-.5)*10+'deg');c.style.setProperty('--rx',(.5-y)*10+'deg');c.style.setProperty('--gx',x*100+'%');c.style.setProperty('--gy',y*100+'%')}
+  else if(c.classList.contains('is-tilting')){c.classList.remove('is-tilting');c.style.setProperty('--rx','0deg');c.style.setProperty('--ry','0deg')}});
+ if(hv){const b=box(hv),x=(px-b.x)/b.w-.5,y=(py-b.y)/b.h-.5,on=Math.abs(x)<=.5&&Math.abs(y)<=.5;
+  hv.style.setProperty('--hy',on?x*10+'deg':'0deg');hv.style.setProperty('--hx',on?-y*8+'deg':'0deg')}}
+addEventListener('pointermove',e=>{ev=e;pr||(pr=requestAnimationFrame(tilt))},{passive:true});
+function frame(){sr=0;const max=root.scrollHeight-innerHeight;bar.style.transform='scaleX('+(max>0?scrollY/max:0)+')';
+ if(rm)return;if(photo&&scrollY<1000)photo.style.setProperty('--sy',scrollY);
+ if(art){const r=art.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight)art.style.setProperty('--py',Math.max(-24,Math.min(24,(r.top+r.height/2-innerHeight/2)*-.06))+'px')}
+ if(ev&&!pr)pr=requestAnimationFrame(tilt)}
+addEventListener('scroll',()=>{sr||(sr=requestAnimationFrame(frame))},{passive:true});frame();
+})();
+</script>
+</body>
+</html>
